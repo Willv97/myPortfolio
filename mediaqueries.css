@@ -1,0 +1,14 @@
+/*When screen is 1400px or less modify the height and margin of #profile change wrapping behavior of .about-containers*/
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+/**/
+/**/
+/**/
+/**/
