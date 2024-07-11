@@ -8,6 +8,7 @@
         flex-wrap: wrap;
     }
 }
+
 /* When the screen size is lower than 1200px the desktop-nav disappears and the hamburger-nav shows */
 @media screen and (max-width: 1200px) {
     #desktop-nav {
@@ -15,6 +16,29 @@
     }
     #hamburger-nav {
         display: flex;
+    }
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+    #profile, .section-container {
+        display: block;
+    }
+    .arrow {
+        display: none;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section_pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers {
+        margin-top: 0;
     }
 }
 /**/
