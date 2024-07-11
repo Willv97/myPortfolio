@@ -1,4 +1,4 @@
-/*When screen is 1400px or less modify the height and margin of #profile change wrapping behavior of .about-containers*/
+/**/
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -8,8 +8,7 @@
         flex-wrap: wrap;
     }
 }
-
-/* When the screen size is lower than 1200px the desktop-nav disappears and the hamburger-nav shows */
+/*When the screen size is lower than 1200px the desktop-nav disappears and the hamburger-nav shows*/
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -32,7 +31,7 @@
     section {
         margin: 0 5%;
     }
-    .section_pic-container {
+    .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
@@ -42,7 +41,6 @@
     }
 }
 
-/* Change css when screen size is 600px or less */
 @media screen and (max-width: 600px) {
     #contact, footer {
         height: 40vh;
@@ -59,9 +57,9 @@
         margin-bottom: 2rem;
     }
     .about-containers, .contact-info-upper-container, .btn-container {
-        flex: wrap;
+        flex-wrap: wrap;
     }
-    .contact-info-container {
+    .conact-info-container {
         margin: 0;
     }
     .contact-info-container p, .nav-links li a {
@@ -78,12 +76,12 @@
         gap: 0.5rem;
         text-align: center;
     }
-    .section_pic-container {
+    .section__pic-container {
         width: auto;
         height: 46vw;
         justify-content: center;
     }
-    .section_text_p2 {
+    .section__text__p2 {
         font-size: 1.25rem;
     }
     .title {
