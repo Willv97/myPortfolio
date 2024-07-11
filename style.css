@@ -8,11 +8,11 @@
 }
 
 body {
-    font-family: "Poppins, sans-serif";
+    font-family: "Poppins", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Makes page scroll in a smooth manner*/
 }
 
 p {
@@ -34,7 +34,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    font-size: 17vh;
+    height: 17vh;
 }
 
 .nav-links {
@@ -85,8 +85,7 @@ a:hover {
 }
 
 /* Turns nav into hamburger - 3 lines */
-
-.hamburger-icon span {
+.hamburger-icon span { 
     width: 100%;
     height: 2px;
     background-color: black;
@@ -101,8 +100,9 @@ a:hover {
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0,3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+
 .menu-links a {
     display: block;
     padding: 10px;
@@ -241,7 +241,7 @@ section {
     color: white;
 }
 
-.btn-color-1 {
+.btn-color-1:hover {
     background: rgb(0, 0, 0);
 }
 
@@ -279,7 +279,7 @@ section {
 }
 
 .about-pic {
-    display: flex;
+    border-radius: 2rem;
 }
 
 .arrow {
@@ -335,7 +335,7 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 article {
@@ -371,6 +371,11 @@ article .icon {
     color: black;
 }
 
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
 /* Contact Section */
 
 #contact {
@@ -384,14 +389,14 @@ article .icon {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53);
-    background-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
 }
 
-.container-info-container {
+.contact-info-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -399,9 +404,9 @@ article .icon {
     margin: 1rem;
 }
 
-.contact-info-container p [
+.contact-info-container p {
     font-size: larger;
-]
+}
 
 .contact-icon {
     cursor: default;
@@ -421,4 +426,3 @@ footer {
 footer p {
     text-align: center;
 }
-
