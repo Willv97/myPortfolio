@@ -1,4 +1,4 @@
-/**/
+/*When screen is smaller than 1400px the profile id and .about-containers have different properties*/
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
